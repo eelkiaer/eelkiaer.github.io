@@ -3,3 +3,10 @@ title: Test
 ---
 
 A first post for testing stuff.
+
+
+
+$$ \ln x = \int_{-\infty}^x \frac 1 y \, dy $$
+
+
+$$ x \equiv a \pmod{b} $$
