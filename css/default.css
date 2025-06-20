@@ -23,7 +23,7 @@ body{
 }
 
 header{
-  border-bottom:2px solid color:var(--col_text);;
+  border-bottom:2px solid var(--col_text);;
   font-family: 'Acme', sans-serif;
 }
 
