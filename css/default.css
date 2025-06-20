@@ -1,8 +1,15 @@
+/* Color palette */
+:root {
+  --col_text: #333333;
+}
 
+/* Fonts */
 @import url(https://fonts.bunny.net/css?family=acme:400|actor:400);
+
 
 html {
   font-size: 62.5%;
+  color: var(--col_text)
 }
 
 body{
