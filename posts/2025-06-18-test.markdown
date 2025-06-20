@@ -10,3 +10,14 @@ $$ \ln x = \int_{-\infty}^x \frac 1 y \, dy $$
 
 
 $$ x \equiv a \pmod{b} $$
+
+
+```tikzpicture
+\node (X) {$X$};
+\node (Y) [below of=X, left of=X] {$Y$};
+\node (Y') [below of=X, right of=X] {$Y^\prime$};
+\draw[->] (Y) to node {$i$} (X);
+\draw[->] (Y') to node [swap] {$i^\prime$} (X);
+\draw[transform canvas={yshift=0.5ex}, ->] (Y) to node {$\alpha$} (Y');
+\draw[transform canvas={yshift=-0.5ex}, ->] (Y') to node {$\alpha^{-1}$} (Y);
+```

@@ -1,4 +1,6 @@
 
+@import url(https://fonts.bunny.net/css?family=acme:400|actor:400);
+
 html {
   font-size: 62.5%;
 }
@@ -9,17 +11,21 @@ body{
   margin:10 auto;
   max-width:600px;
   width:90%;
-  font-family:open-sans,sans-serif;
+  font-family: 'Actor', sans-serif;
 }
 
 header{
   border-bottom:2px solid black;
-  padding:12px 50px;
-  font-family:open-sans,sans-serif;
+  font-family: 'Acme', sans-serif;
 }
 
 a {
   color: #d8b384;
+  text-decoration: none;
+}
+
+.logo a {
+  color: #000;
   text-decoration: none;
 }
 
@@ -56,10 +62,7 @@ article .header {
   color: #555;
 }
 
-.logo a {
-  color: #000;
-  text-decoration: none;
-}
+
 
 .home-img {
   width: 200px;
@@ -68,6 +71,13 @@ article .header {
   margin-left: 30px;
   margin-top: 0;
   padding-top: 0;
+}
+
+.tikzpicture {
+  height: 200px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (max-width: 319px) {

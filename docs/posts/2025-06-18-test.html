@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Emilie Elkiær - Test</title>
         <link rel="stylesheet" href="../css/default.css" />
-         <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet">
+
         <script>
         MathJax = {
           tex: {
@@ -51,6 +51,13 @@
         <p>A first post for testing stuff.</p>
 <p><span class="math display">$$ \ln x = \int_{-\infty}^x \frac 1 y \, dy $$</span></p>
 <p><span class="math display"><em>x</em> ≡ <em>a</em> (mod  <em>b</em>)</span></p>
+<pre class="tikzpicture"><code>\node (X) {$X$};
+\node (Y) [below of=X, left of=X] {$Y$};
+\node (Y') [below of=X, right of=X] {$Y^\prime$};
+\draw[-&gt;] (Y) to node {$i$} (X);
+\draw[-&gt;] (Y') to node [swap] {$i^\prime$} (X);
+\draw[transform canvas={yshift=0.5ex}, -&gt;] (Y) to node {$\alpha$} (Y');
+\draw[transform canvas={yshift=-0.5ex}, -&gt;] (Y') to node {$\alpha^{-1}$} (Y);</code></pre>
     </section>
 </article>
 
