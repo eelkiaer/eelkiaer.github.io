@@ -1,6 +1,6 @@
 /* Color palette */
 :root {
-  --col_text: #333333;
+  --col_text: #2F2F32;
 }
 
 /* Fonts */
@@ -9,12 +9,12 @@
 
 html {
   font-size: 62.5%;
-  color: var(--col_text)
 }
 
 body{
   color:black;
   font-size:16px;
+  color: var(--col_text);
   margin:10 auto;
   max-width:600px;
   width:90%;
