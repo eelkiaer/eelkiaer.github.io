@@ -1,6 +1,7 @@
 /* Color palette */
 :root {
-  --col_text: #2F2F32;
+  --col_text: #333333;
+  --col_link: #996600;
 }
 
 /* Fonts */
@@ -26,7 +27,7 @@ header{
 }
 
 a {
-  color: #d8b384;
+  color:var(--col_link);
   text-decoration: none;
 }
 
