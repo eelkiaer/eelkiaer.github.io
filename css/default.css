@@ -1,6 +1,7 @@
 /* Color palette */
 :root {
   --col_text: #333333;
+  --col_head: #330000;
   --col_link: #993300;
 }
 
@@ -10,6 +11,7 @@
 
 html {
   font-size: 62.5%;
+  color:var(--col_text);
 }
 
 body{
@@ -18,12 +20,12 @@ body{
   width:90%;
   font-family: 'Actor', sans-serif;
   font-size:16px;
-  color:var(--col_text);
 }
 
 header{
-  border-bottom:2px solid black;
+  border-bottom:2px solid color:var(--col_text);;
   font-family: 'Acme', sans-serif;
+  color:var(--col_head);
 }
 
 a {
